@@ -24,8 +24,8 @@ a:hover {
 
 body {
   color: #333;
-  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino;
-  font-size: 1em;
+  font-family: 'Microsoft YaHei';
+  line-height: 1.5em;
   background: rgb(195, 188, 178);
 }
 
@@ -185,5 +185,9 @@ main section .item h3 {
 main section .item ul {
   padding-top: 10px;
   list-style: none;
+}
+
+main .my {
+  padding-left: 20px;
 }
 
