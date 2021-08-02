@@ -99,13 +99,13 @@ section .item {
 }
 
 .personal .item span:first-child {
-  width: 80px;
+  width: 70px;
   display: inline-block;
 }
 
 .personal .item span:last-child::before {
   content: '：';
-  padding-right: 18px;
+  padding-right: 10px;
 }
 
 .skills .item {
@@ -139,6 +139,9 @@ section .item {
   align-items: center;
   padding: 3px 0;
   font-size: 16px;
+}
+.link {
+  word-break: break-all;
 }
 /* main */
 main {
